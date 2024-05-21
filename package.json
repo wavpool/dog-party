@@ -1,7 +1,7 @@
 {
   "name": "dog-party",
   "version": "1.0.0",
-  "description": "Dog Party starter kit using webpack and SCSS/SASS enabled.",
+  "description": "Dog Party starter kit using webpack.",
   "main": "index.js",
   "scripts": {
     "start": "webpack server",
@@ -13,8 +13,6 @@
     "css-loader": "^6.10.0",
     "file-loader": "^6.2.0",
     "html-loader": "^5.0.0",
-    "sass": "^1.70.0",
-    "sass-loader": "^14.1.0",
     "style-loader": "^3.3.4",
     "webpack-dev-server": "^4.15.1"
   },

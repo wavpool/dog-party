@@ -12,7 +12,7 @@
 
 ## Specification
 
-This static comp challenge will keep you exercising that HTML/SCSS muscle. :muscle: You will be asked to recreate the image below by recreating the screenshot using HTML and SCSS.
+This static comp challenge will keep you exercising that HTML/CSS muscle. :muscle: You will be asked to recreate the image below by recreating the screenshot using HTML and CSS.
 
 In other static comp challenges (but not this one), we'll give you a bit of flexibility, however the objective is to build something that **very closely** represents the original design.
 
@@ -20,6 +20,6 @@ Once you get into the workforce, building out comps that reflect the designer's 
 
 ## The Challenge
 
-Your challenge is to recreate the following image using HTML and SCSS. You've been given some initial files to get started that you must use.
+Your challenge is to recreate the following image using HTML and CSS. You've been given some initial files to get started that you must use.
 
 ![this](dog-party-spec.png).
