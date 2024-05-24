@@ -117,7 +117,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 20vw;
   text-align: center;
@@ -130,6 +130,14 @@ main {
   border: 4px solid var(--main-accent-color);
   height: var(--smaller-dog-photo-size);
   width: var(--smaller-dog-photo-size);
+}
+
+.dog-info-card-title {
+  /* border-radius: 50%; */
+  /* border: 4px solid var(--main-accent-color); */
+  /* height: var(--smaller-dog-photo-size); */
+  /* width: var(--smaller-dog-photo-size); */
+  position: ;
 }
 
 footer {
