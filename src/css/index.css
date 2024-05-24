@@ -59,6 +59,10 @@ main {
   padding: var(--zero-pixels);
   margin: var(--zero-pixels);
   height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content-section {
@@ -73,7 +77,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 30px 0px;
+  margin-bottom: 60px;
 }
 
 #hero-section-message {
@@ -89,7 +93,7 @@ main {
   margin-top: 10px;
   padding: 6px 10px;
   background-color: white;
-  border: 6px solid var(--main-accent-color);
+  border: 3px solid var(--main-accent-color);
   font-size: 15pt;
   color: var(--main-accent-color)
 }
@@ -100,10 +104,12 @@ main {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
+  /* height: calc(50% - 150px); */
+  /* height: 50vh; */
+  : calc(100% - 150px);
   width: 100%;
   padding: 0px 10px;
   position: absolute;
-  height: calc(50% - 150px);
   text-wrap: wrap;
 }
 
@@ -116,7 +122,6 @@ main {
   width: 20vw;
   text-align: center;
   text-wrap: balance;
-  ;
 }
 
 
@@ -128,8 +133,11 @@ main {
 }
 
 footer {
+  position: fixed;
   background-color: var(--main-accent-color);
+  top: calc(100% - 150px);
   height: 150px;
+  width: 100%;
 }
 
 
