@@ -12,6 +12,41 @@ body {
 
 nav {
   background-color: var(--secondary-accent-color);
+  display: flex;
+  justify-content: space-evenly;
+  
+  button {
+    background-color: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px 20px;
+  }
+}
+
+#nav-left {
+  justify-content: flex-start;
+  margin-left: 0;
+  width: 50vh;
+
+}
+#nav-right {
+  justify-content: flex-end;
+  margin-right: 30px;
+  width: 50vh;
+
+}
+
+main {
+  padding: 0px;
+  margin: 0px;
+  height: 80vh;
+}
+
+footer {
+  background-color: var(--main-accent-color);
+  height: 150px;
 }
 
 .dog-icon {
