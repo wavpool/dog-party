@@ -77,6 +77,10 @@ main {
   margin: 40px 0px;
 }
 
+#hero-section-message {
+  font-size: 24pt;
+}
+
 #dog-info-card-section {
   display: flex;
   flex-direction: row;
