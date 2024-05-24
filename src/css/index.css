@@ -101,6 +101,10 @@ footer {
   height: 150px;
 }
 
+.link-button {
+  border: 6px solid var(--secondary-accent-color);
+}
+
 #footer-link-container {
   background-color: transparent;
   border: none;
