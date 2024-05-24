@@ -13,29 +13,45 @@ body {
 nav {
   background-color: var(--secondary-accent-color);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 60px;
+  
+  
   
   button {
-    background-color: none;
+    background-color: transparent;
     border: none;
-    color: inherit;
+    color: white;
+    font-size: 13pt;
     cursor: pointer;
+    height: 60px;
+    width: 90px;
     padding: 0px;
-    margin: 0px 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 #nav-left {
+  display: flex;
   justify-content: flex-start;
-  margin-left: 0;
+  margin-left: 30px;
+  margin-right: 30px;
   width: 50vh;
 
 }
 #nav-right {
+  display: flex;
   justify-content: flex-end;
+  margin-left: 30px;
   margin-right: 30px;
   width: 50vh;
-
+  
+  /* flex-direction: row; */
 }
 
 main {
