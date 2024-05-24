@@ -58,7 +58,7 @@ main {
   height: 80vh;
 }
 
-.hero-section {
+#hero-section {
   display: flex;
   flex-direction: column;
   align-items: center;
