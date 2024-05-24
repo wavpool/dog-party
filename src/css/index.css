@@ -61,16 +61,8 @@ main {
   height: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
   align-items: center;
 }
-
-/* .content-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-} */
 
 #hero-section {
   display: flex;
@@ -105,9 +97,6 @@ main {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  /* height: calc(50% - 150px); */
-  /* height: 50vh; */
-  /* : calc(100% - 150px); */
   width: 100%;
   padding: 0px 10px;
   text-wrap: wrap;
