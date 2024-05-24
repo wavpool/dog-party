@@ -1,11 +1,15 @@
 @import 'variables';
 
+:root {
+  --zero-pixels: var(--zero-pixels);
+}
+
 body {
   background: url('../../dist/images/park.jpg') center/cover;
   height: 100vh;
   width: 100%;
-  padding: 0px;
-  margin: 0px;
+  padding: var(--zero-pixels);
+  margin: var(--zero-pixels);
   display: flex;
   flex-direction: column;
 }
@@ -28,8 +32,8 @@ nav {
     cursor: pointer;
     height: 60px;
     width: 90px;
-    padding: 0px;
-    margin: 0px;
+    padding: var(--zero-pixels);
+    margin: var(--zero-pixels);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,9 +57,16 @@ nav {
 }
 
 main {
-  padding: 0px;
-  margin: 0px;
+  padding: var(--zero-pixels);
+  margin: var(--zero-pixels);
   height: 80vh;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #hero-section {
@@ -68,6 +79,23 @@ main {
 footer {
   background-color: var(--main-accent-color);
   height: 150px;
+}
+
+#footer-link-container {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 13pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#social-link-container {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 34vw;
 }
 
 .dog-icon {
