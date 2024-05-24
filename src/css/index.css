@@ -95,7 +95,11 @@ footer {
 #social-link-container {
   display: flex;
   flex-wrap: nowrap;
-  width: 34vw;
+  justify-content: space-between;
+  width: 50vw;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 0px 10px;
 }
 
 #github-repo-link {
