@@ -83,6 +83,13 @@ main {
   font-size: 24pt;
 }
 
+.link-button {
+  margin-top: 10px;
+  background-color: white;
+  border: 6px solid var(--main-accent-color);
+  color: var(--main-accent-color)
+}
+
 #dog-info-card-section {
   display: flex;
   flex-direction: row;
@@ -107,9 +114,6 @@ footer {
   height: 150px;
 }
 
-.link-button {
-  border: 6px solid var(--secondary-accent-color);
-}
 
 #footer-link-container {
   background-color: transparent;
