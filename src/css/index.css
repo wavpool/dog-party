@@ -98,6 +98,10 @@ footer {
   width: 34vw;
 }
 
+#github-repo-link {
+  text-decoration: underline;
+}
+
 .dog-icon {
   width: 50px;
 }
