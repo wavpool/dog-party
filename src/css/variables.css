@@ -2,6 +2,10 @@
   --main-accent-color: #3F8DA8;
   --secondary-accent-color: #92E0E5;
   --zero-pixels: var(--zero-pixels);
-  --smaller-dog-photo-size: 200px;
+  --smaller-dog-photo-size: 16vw;
+  --full-page: 100%;
+  --footer-height: 20vh;
+  --header-height: 5vh;
+  --footer-font-size: 1.2vh;
 }
 

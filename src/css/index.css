@@ -1,29 +1,31 @@
 @import 'variables';
 
 body {
+  display: flex;
+  flex-direction: column;
   background: url('../../dist/images/park.jpg') center/cover;
   font-family: sans-serif;
   font-weight: 10;
-  height: 100vh;
-  width: 100%;
+  height: var(--full-page);
+  width: var(--full-page);
   padding: var(--zero-pixels);
   margin: var(--zero-pixels);
-  display: flex;
-  flex-direction: column;
 }
 
 nav {
-  background-color: var(--secondary-accent-color);
   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  background-color: var(--secondary-accent-color);
+  /* height: 60px; */
   height: 60px;
   
-  
-  
   button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: transparent;
     border: none;
     color: white;
@@ -33,9 +35,6 @@ nav {
     width: 90px;
     padding: var(--zero-pixels);
     margin: var(--zero-pixels);
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 
@@ -56,12 +55,12 @@ nav {
 }
 
 main {
-  padding: var(--zero-pixels);
-  margin: var(--zero-pixels);
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: var(--zero-pixels);
+  margin: var(--zero-pixels);
+  height: var(--full);
 }
 
 #hero-section {
@@ -70,6 +69,7 @@ main {
   align-items: center;
   justify-content: center;
   margin-bottom: 60px;
+  bottom: 50vh;
 }
 
 #hero-section-message {
@@ -87,30 +87,41 @@ main {
   padding: 6px 10px;
   background-color: white;
   border: 3px solid var(--main-accent-color);
-  font-size: 15pt;
-  color: var(--main-accent-color)
+  font-size: var(--footer-font-size);
+  color: var(--main-accent-color);
+  text-wrap: nowrap;
 }
 
 #dog-info-card-section {
-  background-color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  width: 100%;
+  background-color: white;
+  border: 2px solid red;
+  position: relative;
+  height: 43vh;
+  width: var(--full-page);
   padding: 0px 10px;
   text-wrap: wrap;
+  /* top: 50%; */
+  bottom: 100vh - var(--footer-height);
 }
 
 .dog-info-card {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  height: 40vw;
   width: 20vw;
+  margin-top: 0;
+  padding: 0 3vw;
+  padding-top: 0;
   text-align: center;
   text-wrap: balance;
+  font-size: 1vh;
 }
 
 
@@ -124,9 +135,9 @@ main {
 footer {
   position: fixed;
   background-color: var(--main-accent-color);
-  top: calc(100% - 150px);
-  height: 150px;
-  width: 100%;
+  top: calc(var(--full-page) - 12vh);
+  height: 20vh;
+  width: var(--full-page);
 }
 
 
@@ -134,7 +145,7 @@ footer {
   background-color: transparent;
   border: none;
   color: white;
-  font-size: 13pt;
+  font-size: var(--footer-font-size);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,5 +167,5 @@ footer {
 }
 
 .dog-icon {
-  width: 50px;
+  width: 4vh;
 }
