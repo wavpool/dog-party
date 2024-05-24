@@ -58,6 +58,13 @@ main {
   height: 80vh;
 }
 
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 footer {
   background-color: var(--main-accent-color);
   height: 150px;
